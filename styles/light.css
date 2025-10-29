@@ -4,32 +4,33 @@
   переключая тему
 */
 
-:root.theme-light {
+ :root.theme-light {
   --bg-image: url(../images/cover-image-light.png);
-  --decor-text-color: #ffe2e000;
+  --bg-color: #ffe2e0;
+  --decor-color: #353430;
   --button-color: #353430;
   --hover-btn-color: rgba(53, 52, 48, 0.4);
-  --accent-color:  #FF8DCB;
-  --header-color: var(--text-color);
+  --accent-color:  #FF8DCB; 
+  --accented-text-color: #353430;     
+  --section-title-color: #353430;       
   --text-color: #353430;
   --main-title-color: #FFC2E6;
-  --header-accent-color: #353430;
-  --bg-color: #ffe2e0;
-}
+  --displayed: none;
+} 
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-image: url(../images/cover-image-light.png);
-    --decor-text-color: #ffe2e000;
-    --button-color: #353430;
-    --hover-btn-color: rgba(53, 52, 48, 0.4);
-    --accent-color:  #FF8DCB;
-    --header-color: var(--text-color);
-    --text-color: #353430;
-    --main-title-color: #FFC2E6;
-    --header-accent-color: #353430;
-    --bg-color: #ffe2e0;
+  --bg-image: url(../images/cover-image-light.png);
+  --bg-color: #ffe2e0;
+  --decor-color: #ffe2e000;
+  --button-color: #353430;
+  --hover-btn-color: rgba(53, 52, 48, 0.4);
+  --accent-color:  #FF8DCB; 
+  --accented-text-color: #353430;     
+  --section-title-color: #353430;       
+  --text-color: #353430;
+  --main-title-color: #FFC2E6;
+  --main-font-size: 18px;
+  --displayed: none;
   }
 }
-
- 
