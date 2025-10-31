@@ -19,3 +19,10 @@
   --double-gap: 20px;
   --displayed: flex;
 }
+
+@media (768px <= width) {
+
+  :root {
+    --gap: 20px;
+  }
+}
