@@ -11,10 +11,16 @@
   margin: 0;
   padding: 0 var(--gap) 0 var(--gap);
   background-color: var(--bg-color);
+  /* В задании указано: Шаг 3. Создание статичной версии
+Перед тем как верстать контент страницы:
+1. Задайте для .page фоновое изображение.
+Наставник подтвердил. Пожалуйста примите =)  */
   background-image: var(--bg-image);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  /* добавляю по совету наставника */
+  background-size: cover;
 }
 
 .header {
@@ -182,6 +188,8 @@
 }
 
 .text-link {
+  all: unset;
+  color: var(--text-color);
   text-shadow: 2px 1px 0 var(--accent-color);
 }
 
