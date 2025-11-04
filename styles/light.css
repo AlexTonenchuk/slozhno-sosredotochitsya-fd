@@ -22,7 +22,7 @@
   :root {
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: #ffe2e0;
-  --decor-color: #ffe2e000;
+  --decor-color: #353430;
   --button-color: #353430;
   --hover-btn-color: rgba(53, 52, 48, 0.4);
   --accent-color:  #FF8DCB; 
